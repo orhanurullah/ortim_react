@@ -1,0 +1,16 @@
+register = {
+    "success": true,
+    "message": "User registered successfully",
+    "data": {
+        email: "email",
+        isRequiredEmailValidation: true
+}
+
+login = {
+    "success": true,
+    "message": "User logged in successfully",
+    "data": {
+        accessToken: "accessToken",
+        isActive: true,
+        email: "email",
+}
